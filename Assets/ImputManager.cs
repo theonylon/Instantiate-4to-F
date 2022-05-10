@@ -22,6 +22,6 @@ public class ImputManager : MonoBehaviour
 
     public void UserGreetings ()
     {
-        Debug.Log("hola " + txtUserName.text);
+        Debug.Log(int.Parse (txtUserName.text)* 2);
     }
 }
